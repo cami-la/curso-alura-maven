@@ -27,4 +27,18 @@
 			<url>https://repo.spring.io/release</url>
 		</repository>
 	</repositories>
+	
+	<build>
+		<finalName>loja</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>11</source>
+					<targert>11</targert>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
 </project>
